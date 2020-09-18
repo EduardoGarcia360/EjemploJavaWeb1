@@ -12,6 +12,15 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>INDEX</h1>
+        <form action="procesar.jsp" method="POST">
+            NOMBRE: <input type="text" name="txtNombre">
+            <br>
+            EDAD: <input type="text" name="txtEdad">
+            <br>
+            SUELDO: <input type="text" name="txtSueldo">
+            <br>
+            <input type="submit" name="btnEnviar" value="Grabar">
+        </form>
     </body>
 </html>
